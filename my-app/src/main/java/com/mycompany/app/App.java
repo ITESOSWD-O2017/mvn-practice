@@ -4,7 +4,17 @@ package com.mycompany.app;
  *
  */
 public class App {
-    public static void main(String[] args) {
+    /**
+     * @param args method main.
+     */
+    public static void main(final String[] args) {
         System.out.println("Hello World!");
+    }
+
+    /**
+     * Constructor.
+     */
+    protected App() {
+
     }
 }
